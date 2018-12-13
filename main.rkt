@@ -10,4 +10,5 @@
   (define rq ((make-domain-requester "graph.facebook.com" (make-https-requester http-requester))))
 
   (define (mklogin appid redirect state)
+    (current-requester rq)
     
