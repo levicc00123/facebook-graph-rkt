@@ -1,5 +1,5 @@
 #lang info
-(define collection "facebook-graph-rk")
+(define collection "facebook-graph")
 (define deps '("base" "request"))
 (define build-deps '("scribble-lib" "racket-doc" "rackunit-lib"))
 (define scribblings '(("scribblings/facebook-graph-rk.scrbl" ())))
